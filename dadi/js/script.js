@@ -9,8 +9,8 @@ printBtn.addEventListener ("click" , function () {
   var j = 0;
   var k = 0;
 for (var i = 0; i < 3; i++) {
-  dado1 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
-  dado2 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+  dado1 = Math.floor(Math.random() * (6)) + 1;
+  dado2 = Math.floor(Math.random() * (6)) + 1;
 
   if (dado1 > dado2) {
     j++;
